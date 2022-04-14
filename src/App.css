@@ -5,7 +5,9 @@
 .my-jumbotron{
   padding: 1rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
+  background-image: url('../public/background-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
 }
 .submit-button{
@@ -14,11 +16,28 @@
   width: 100%;
   border-radius: 10px;
 }
+.mt-75{
+  margin-top: 75px !important;
+}
+.heading-top{
+  background-color: #00000082;
+  color: beige;
+  font-size: 25px;
+  text-align: center;
+}
 .custom-box{
   background: white;
-  height: 100%;
+  max-height: 415px;
+  overflow-y: auto;
   padding-top: 20px;
-  border-radius: 18px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+.custom-box-img{
+  background: white;
+  max-height: 415px;
+  background-image: url('../public/card-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 .logo-img{
@@ -27,4 +46,3 @@
   width: 116px;
   height: 69px;
 }
-

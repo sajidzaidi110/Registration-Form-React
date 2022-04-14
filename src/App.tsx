@@ -1,5 +1,6 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from 'yup';
+import 'intl-tel-input/build/css/intlTelInput.css';
 
 function App() {
         return (
@@ -31,29 +32,25 @@ function App() {
                 }}
                 render={({ errors, status, touched }) => (
                     <Form>
-                      <div className="row">
-                        <div className="col-md-6 mr-10 form-group">
+                        <div className="form-group">
                             <label htmlFor="firstName">First Name</label>
                             <Field name="firstName" type="text" className={'form-control' + (errors.firstName && touched.firstName ? ' is-invalid' : '')} />
                             <ErrorMessage name="firstName" component="div" className="invalid-feedback" />
                         </div>
-                        <div className="col-md-6 form-group">
+                        <div className="form-group">
                             <label htmlFor="lastName">Last Name</label>
                             <Field name="lastName" type="text" className={'form-control' + (errors.lastName && touched.lastName ? ' is-invalid' : '')} />
                             <ErrorMessage name="lastName" component="div" className="invalid-feedback" />
                         </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-md-6 mr-10 form-group">
+                        <div className="form-group">
                             <label htmlFor="email">Email</label>
                             <Field name="email" type="text" className={'form-control' + (errors.email && touched.email ? ' is-invalid' : '')} />
                             <ErrorMessage name="email" component="div" className="invalid-feedback" />
                         </div>
-                        <div className="col-md-6">
+                        <div className="form-group">
                             <label htmlFor="password">Password</label>
                             <Field name="password" type="password" className={'form-control' + (errors.password && touched.password ? ' is-invalid' : '')} />
                             <ErrorMessage name="password" component="div" className="invalid-feedback" />
-                        </div>
                         </div>
                         <div className="form-group">
                             <label htmlFor="confirmPassword">Confirm Password</label>
