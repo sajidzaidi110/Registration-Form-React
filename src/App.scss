@@ -16,8 +16,8 @@
   width: 100%;
   border-radius: 10px;
 }
-.mt-75{
-  margin-top: 75px !important;
+.mt-30{
+  margin-top: 30px !important;
 }
 .heading-top{
   background-color: #00000082;
@@ -35,14 +35,43 @@
 .custom-box-img{
   background: white;
   max-height: 415px;
-  background-image: url('../public/card-img.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
 .logo-img{
   margin: 0 auto;
   display: block;
-  width: 116px;
-  height: 69px;
+  width: 120px;
+  height: 60px;
+}
+.school-name{
+  margin: 0 auto;
+  display: table;
+  margin-bottom: 20px;
+}
+select {
+  border-radius: .25rem;
+  border: 1px solid #c0b7b7;
+  display: block;
+  width: -webkit-fill-available;
+  background-color: #ffffff;
+  cursor: pointer;
+  height: 2.5125rem !important;
+  margin-top: -0.125rem;
+  padding: .5rem;
+  -webkit-appearance: none;
+  text-indent: .0625rem;
+}
+
+select::-ms-expand {
+  display: none !important;
+}
+
+select:focus { 
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+.select-wrapper {
+  position: relative;
 }

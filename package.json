@@ -45,6 +45,7 @@
   "devDependencies": {
     "@types/intl-tel-input": "^17.0.4",
     "formik": "^2.2.9",
+    "sass": "^1.50.0",
     "yup": "^0.32.11"
   }
 }
