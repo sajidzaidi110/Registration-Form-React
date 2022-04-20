@@ -8,7 +8,6 @@
   background-image: url('../public/background-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
 }
 .submit-button{
   margin-top: 40px;
@@ -19,6 +18,9 @@
 .mt-30{
   margin-top: 30px !important;
 }
+.mb-30{
+  margin-bottom: 30px !important;
+}
 .heading-top{
   background-color: #00000082;
   color: beige;
@@ -27,8 +29,6 @@
 }
 .custom-box{
   background: white;
-  max-height: 415px;
-  overflow-y: auto;
   padding-top: 20px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
 }
