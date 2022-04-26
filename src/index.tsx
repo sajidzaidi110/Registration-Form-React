@@ -2,8 +2,11 @@ import './index.css';
 import App from './App';
 import { render } from 'react-dom';
 import './App.scss';
+import { BrowserRouter } from 'react-router-dom';
 render(
-  <App />,
+  <BrowserRouter>
+  <App />
+</BrowserRouter>,
   document.getElementById('app')
 );
 
