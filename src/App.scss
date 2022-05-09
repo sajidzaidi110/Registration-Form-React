@@ -81,15 +81,18 @@ select {
   cursor: pointer;
   height: 2.5125rem !important;
   margin-top: -0.125rem;
+  color: #545b62f2;
   padding: .5rem;
   -webkit-appearance: none;
   text-indent: .0625rem;
+  option{
+    color: #545b62 !important;
+  }
 }
 
 select::-ms-expand {
   display: none !important;
 }
-
 select:focus { 
   border-color: #80bdff;
   outline: 0;

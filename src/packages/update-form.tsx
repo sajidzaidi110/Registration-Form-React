@@ -34,11 +34,11 @@ export const UpdateFormComponent = () => {
                     fatherLastName: res.data.fatherLastName,
                     motherfirstName: res.data.motherFirstName,
                     motherlastName: res.data.motherLastName,
-                    instituition: res.data.lastEducation.institute,
-                    yop: res.data.lastEducation.yearOfPassing,
-                    duration: res.data.lastEducation.duration,
-                    grade: res.data.lastEducation.grade,
-                    class: res.data.lastEducation.classAttended,
+                    instituition: res.data.lastEducation?.institute,
+                    yop: res.data.lastEducation?.yearOfPassing,
+                    duration: res.data.lastEducation?.duration,
+                    grade: res.data.lastEducation?.grade,
+                    class: res.data.lastEducation?.classAttended,
                 })
             }
         });
